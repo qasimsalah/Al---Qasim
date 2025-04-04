@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-transform: capitalize;
+}
+.me{
+    background-color: blue;
+}
+.mee{
+    padding: 20px 0 30px ;
+    background-color: blue;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+
+}
+.mee h1{
+    color: rgb(128, 255, 1);
+    font-size: 30px;
+}
+.mee img{
+    width: 150px;
+    height: 150px;
+    border: 2px yellow solid;
+    border-radius: 50%;
+}
+.text{
+    color: beige;
+    text-align: center;
+    padding: 0 0 10px;
+    margin: 0 20px;
+}
+
+
+
+.row{
+    background-color: chartreuse;
+}
+.row .col{
+    padding: 20px 10px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.col ul{
+    padding: 0 20px;
+    margin: 0px 10px;
+    width: 300px;
+    height: 500px;
+    text-decoration: none;
+    border: 5px red solid;
+    box-shadow: 20px 10px 15px blue inset;
+}
+.col ul:hover{
+    transform: scale(1.03);
+    transition: 1s;
+}
+.col a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.col img{
+    width: 250px;
+    height: 250px;
+    padding: 20px 0;
+    border-radius: 50%;
+}
+.col h2{
+    color: blue;
+    font-size: 30px;
+    padding: 0 0 10px 0;
+}
+.col h3{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20px;
+    padding: 0 10px 10px ;
+}
+@media (max-width: 768px){
+    .row .col{
+        display: block;
+    }
+    .col ul{
+        padding:  50px 0;
+        margin: 30px 10px;
+    }
+}
